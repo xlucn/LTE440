@@ -46,11 +46,11 @@ linear = linear_rate * (jd - T0) * 86400
 
 # Calculate the total TCL-TCB by combining periodic and linear terms
 tcl_tdb = periodic + linear
-print("TCL-TDB at T0+TDB0 is:", tcl_tdb, "seconds")
+print("TCL-TDB at J2000.0 is:", tcl_tdb, "seconds")
 ```
 should produce the following output
 ```
-TCL-TDB at T0+TDB0 is: 0.49330749643254945 seconds
+TCL-TDB at J2000.0 is: 0.49330749643254945 seconds
 ```
 
 ## References
